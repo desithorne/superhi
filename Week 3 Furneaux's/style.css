@@ -1,0 +1,230 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #47353a;
+}
+
+header {
+  padding: 10px 15px 10px 15px;
+  /* when elements are floated in the header, browsers read that they aren't in the header, so overflow: hidden is the property that reads it in order. clearfix is another way to do this */
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 3px;
+}
+
+header nav a {
+  color: #47353a;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-image: url(hero.jpg);
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 200px;
+  background-position: right center;
+}
+
+.hero div {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: David Libre;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-family: Roboto;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flowers {
+  overflow: hidden;
+}
+
+.flowers img {
+  float: left;
+  width: 33.333%;
+}
+
+.quotes {
+  overflow: hidden;
+}
+
+.quotes div {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 50px 20px 40px 20px;
+}
+
+.liv {
+  background-color: #f7f1ee;
+}
+
+.chelsea {
+  background-color: #fff;
+}
+
+.quotes img {
+  width: 75px;
+  border-radius: 100%;
+}
+
+.quotes blockquote {
+  font-family: David Libre;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.15;
+  max-width: 400px;
+  margin: 15px auto 5px auto;
+}
+
+.chair {
+  background-image: url(full-bleed.jpg);
+  background-position: center bottom;
+  padding: 0;
+  height: 500px;
+}
+
+.logos {
+  background-color: #eeae9f;
+  padding: 20px 20px 35px 20px;
+  text-align: center;
+}
+
+.logos p {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.logos img {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+footer {
+  background-color: #47353a;
+  padding: 25px 30px;
+  overflow: hidden;
+}
+
+footer img {
+  float: left;
+}
+
+footer p {
+  float: right;
+  color: #ccc9ca;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .hero h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .chair {
+    height: 440px;
+  }
+  
+  .quotes div {
+    float: none;
+    width: auto;
+    padding: 30px 30px 40px 30px;
+  }
+  
+  .quotes blockquote {
+    font-size: 20px;
+  }
+  
+  .quotes p {
+    display: none;
+  }
+  
+  .logos {
+    display: none;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  
+  header nav {
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 430px) {
+  header h1, header nav {
+    float: none;
+ }
+  header nav a {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+  
+ .flowers img {
+    float: none;
+  width: auto;
+  }
+  
+  footer {
+    padding: 30px 20px;
+  }
+  }
+
+@media (max-width: 808px){
+  .logos img {
+    margin: 0 auto 35px auto;
+    display: block;
+  }
+  .logos img:last-child {
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width:820px) {
+ header {
+   position: fixed;
+   top:  0;
+   left: 0;
+   width: 100%;
+   background-color: #fff;
+   box-shadow: 0 1px 5px 0px rgba(51, 51, 51, 0.3);
+}
+  .hero {
+    margin-top: 50px;
+  }
+}

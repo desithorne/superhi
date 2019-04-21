@@ -1,0 +1,96 @@
+body {
+  font-family: Lora;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  background-image: url(background.svg);
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+header {
+  background-color: #fff;
+  padding: 40px;
+}
+
+nav {
+  background-color: #f05d5d;
+  padding: 20px 40px 20px 40px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  color: #5000ff;
+  border-bottom: 2px solid #ffffff;
+}
+
+section {
+  background-color: #5000ff;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.image {
+  padding: 0;
+}
+
+blockquote {
+  font-size: 32px;
+  line-height: 1.2;
+  font-style: italic;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.map {
+  width: 100%;
+}
+
+.contact p {
+  margin-top: 20px;
+}
+
+.contact a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #f05d5d;
+  padding-bottom: 1px;
+}
+
+@media (max-width: 740px) {
+  section, header {
+    padding: 20px;
+  }
+
+  h2, blockquote {
+    font-size: 24px;
+  }
+
+  body {
+    font-size: 16px;
+    padding-top: 0;
+  }
+  
+  nav a {
+    display: block;
+    border: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 22px;
+    
+  }
+}

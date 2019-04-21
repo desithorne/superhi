@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="427px" height="356px" viewBox="0 0 427 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>map</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="map">
+            <g>
+                <g id="minor" opacity="0.25" transform="translate(56.000000, 0.000000)" stroke="#FFFFFF" stroke-width="3">
+                    <path d="M41.5,0.706533138 L41.5,307.469757" id="Path-31"></path>
+                    <path d="M1.5,0 L1.5,203.469757" id="Path-31"></path>
+                    <path d="M179.322266,0.615693163 L178.822266,200.183043" id="Path-2"></path>
+                    <path d="M108.376953,136.241611 L248.069306,136.241611" id="Path-32"></path>
+                    <path d="M165.376953,202.241611 L305.069306,202.241611" id="Path-32"></path>
+                    <path d="M107.265625,79.0671141 L305.969454,79.0671141" id="Path-33"></path>
+                </g>
+                <g id="major" stroke="#FFFFFF" stroke-width="5">
+                    <path d="M140.359375,48.5 L0,48.5" id="Path-24"></path>
+                    <path d="M162.5,25.6503906 L162.5,0" id="Path-25"></path>
+                    <path d="M162.5,70.6914062 L162.5,356.5" id="Path-26"></path>
+                    <path d="M0,202.71875 L303.905441,202.71875 L303.905426,0" id="Path-28"></path>
+                    <path d="M0,306.75 L361.255941,306.75 L361.255951,0" id="Path-29"></path>
+                    <path d="M184.546875,48.5 L360.234375,48.5" id="Path-27"></path>
+                    <path d="M215.261719,48.5898438 L421.5,217.5" id="Path-30"></path>
+                    <circle id="Oval-3" cx="161.5" cy="48.5" r="21.5"></circle>
+                    <path d="M361.708984,124.5 L423.5,124.5" id="Path-3"></path>
+                </g>
+                <g id="tube" transform="translate(149.000000, 40.000000)" stroke="#F05D5D">
+                    <g>
+                        <circle id="Oval" stroke-width="5" cx="12.5" cy="8.5" r="8.5"></circle>
+                        <path d="M0.5,8.5 L24.5,8.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="tube" transform="translate(126.000000, 278.000000)" stroke="#F05D5D">
+                    <g>
+                        <circle id="Oval" stroke-width="5" cx="12.5" cy="8.5" r="8.5"></circle>
+                        <path d="M0.5,8.5 L24.5,8.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="tube" transform="translate(325.000000, 278.000000)" stroke="#F05D5D">
+                    <g>
+                        <circle id="Oval" stroke-width="5" cx="12.5" cy="8.5" r="8.5"></circle>
+                        <path d="M0.5,8.5 L24.5,8.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="tube" transform="translate(372.000000, 151.000000)" stroke="#F05D5D">
+                    <g>
+                        <circle id="Oval" stroke-width="5" cx="12.5" cy="8.5" r="8.5"></circle>
+                        <path d="M0.5,8.5 L24.5,8.5" id="Line" stroke-width="5" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <path d="M196.311628,171.245625 C197.995085,169.116043 199,166.425377 199,163.5 C199,156.596441 193.403559,151 186.5,151 C179.596441,151 174,156.596441 174,163.5 C174,166.425377 175.004915,169.116043 176.688372,171.245625 L186.5,189 L196.311628,171.245625 Z M186.5,168 C188.985281,168 191,165.985281 191,163.5 C191,161.014719 188.985281,159 186.5,159 C184.014719,159 182,161.014719 182,163.5 C182,165.985281 184.014719,168 186.5,168 Z" id="Combined-Shape" fill="#F05D5D"></path>
+            </g>
+        </g>
+    </g>
+</svg>

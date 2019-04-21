@@ -1,0 +1,79 @@
+body {
+  font-family: Work Sans;
+  font-size: 32px;
+  line-height: 1.5;
+  background: #000000;
+  color: #ffffff;
+}
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.holder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10000vw;
+  height: 100vh;
+  transition: left 1s;
+}
+
+.holder div {
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 30px;
+}
+
+.slide-1 {
+  background-image: url(boyce_1.jpg);
+}
+
+.slide-2 {
+  background-image: url(boyce_2.jpg);
+}
+
+.slide-3 {
+  background-image: url(boyce_3.jpg);
+}
+
+.slide-4 {
+  background-image: url(boyce_4.jpg);
+}
+
+.slide-5 {
+  background-image: url(boyce_5.jpg);
+}
+
+.steps {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  color: white;
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}

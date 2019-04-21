@@ -1,0 +1,56 @@
+body {
+  font-family: Cooper Hewitt;
+  font-size: 16px;
+  background-color: #004d9d;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+section {
+  height: 100vh;
+  background-image: url(sally_1.jpg);
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+footer a {
+  margin-right: 5px;
+}
+
+a:hover {
+  color: #dddddd;
+}
+
+.image_2 {
+  background-image: url(sally_2.jpg);
+}
+
+.image_3 {
+  background-image: url(sally_3.jpg);
+}
+
+.image_4 {
+  background-image: url(sally_4.jpg);
+}
