@@ -1,0 +1,91 @@
+@font-face {
+  font-family: Mohave;
+  src: url(mohave-light.woff2), url(mohave-light.woff);
+}
+
+@font-face {
+  font-family: Mohave;
+  font-weight: 700;
+  src: url(mohave-bold.woff2), url(mohave-bold.woff);
+}
+
+:root {
+  --background: #272727;
+  --text: #fff;
+}
+
+body {
+  font-family: Mohave;
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: var(--background);
+  color: var(--text);
+  margin: 160px auto 80px auto;
+  width: 800px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background-color: var(--background);
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 400px;
+  background-image: url(temp.svg);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding: 0 0 0 64px;
+}
+
+text {
+  fill: var(--text);
+  text-anchor: end;
+}
+
+text.city {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+circle {
+  fill: var(--text);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+text.temp {
+  text-anchor: middle;
+  dominant-baseline: middle;
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0;
+	transition: opacity 0.25s;
+}
+
+path {
+  stroke: var(--text);
+  stroke-width: 4px;
+  fill: none;
+  transition: opacity 0.25s;
+}
+
+g.data-point:hover circle {
+  opacity: 1;
+}
+
+g.data-point:hover text.temp {
+  opacity: 1;
+}
+
+g.data-point:hover path {
+  opacity: 0;
+}
